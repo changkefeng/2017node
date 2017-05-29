@@ -18,4 +18,6 @@ console.log(Object.getOwnPropertyNames(test.prototype));
 var tests = new test();
 for(var i in tests){
     console.log(i)
+
+
 }
