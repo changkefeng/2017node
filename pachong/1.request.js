@@ -4,7 +4,7 @@
 let express = require('express');
 let app = express();
 let cheerio = require('cheerio');
-app.listen(8080);
+app.listen(80);
 let request = require('request');
 let iconv = require('iconv-lite');
 app.get('/',function (req,res) {
